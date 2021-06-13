@@ -1,18 +1,32 @@
 {
 	"name": "lipsum.js",
 	"version": "1.0.0",
-	"description": "A Node.js code to generate Lipsum text.",
+	"description": "A Node.js library to generate Lorem Ipsum easily.",
+	"types": "./typings/index.d.ts",
 	"deprecated": false,
 	"bugs": {
-		"url": "",
+		"url": "https://github.com/RobotoSkunk/Lipsum.js/issues",
 		"email": "contact@robotoskunk.com"
 	},
-	"main": "src/lipsum.js",
+	"main": "./src/lipsum.js",
 	"scripts": {
-		"test": "node test/index.js"
+		"test": "node ./test/index.js"
 	},
-	"author": "robotoskunk",
+	"author": "RobotoSkunk <contact@robotoskunk.com>",
 	"license": "Apache-2.0",
-	"keywords": ["lorem", "ipsum", "lipsum", "lipsum.js"],
-	"homepage": ""
+	"keywords": [
+		"lorem",
+		"ipsum",
+		"lorem-ipsum",
+		"lipsum",
+		"lipsum.js"
+	],
+	"homepage": "https://github.com/RobotoSkunk/Lipsum.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RobotoSkunk/Lipsum.js.git"
+	},
+	"files": [
+		"src"
+	]
 }

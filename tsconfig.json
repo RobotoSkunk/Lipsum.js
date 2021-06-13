@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"moduleResolution": "node",
+		"declaration": false,
+		"removeComments": false,
+		"alwaysStrict": true,
+		"pretty": false,
+		"module": "commonjs",
+		"target": "ES2019",
+		"lib": [
+			"ESNext",
+			"ESNext.Array",
+			"ESNext.AsyncIterable",
+			"ESNext.Intl",
+			"ESNext.Symbol"
+		],
+		"sourceMap": false,
+		"skipDefaultLibCheck": true,
+		"skipLibCheck": true
+	}
+}
