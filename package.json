@@ -1,0 +1,18 @@
+{
+	"name": "lipsum.js",
+	"version": "1.0.0",
+	"description": "A Node.js code to generate Lipsum text.",
+	"deprecated": false,
+	"bugs": {
+		"url": "",
+		"email": "contact@robotoskunk.com"
+	},
+	"main": "src/lipsum.js",
+	"scripts": {
+		"test": "node test/index.js"
+	},
+	"author": "robotoskunk",
+	"license": "Apache-2.0",
+	"keywords": ["lorem", "ipsum", "lipsum", "lipsum.js"],
+	"homepage": ""
+}
